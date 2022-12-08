@@ -1,1 +1,1 @@
-
+Questão 3 Batista e Moraes: Os construtores são especiais e têm o mesmo nome da classe. Portanto, se os construtores fossem herdados na classe filha, então a classe filha conteria um construtor de classe pai, o que é contra a restrição de que o construtor deve ter o mesmo nome que o nome da classe.
