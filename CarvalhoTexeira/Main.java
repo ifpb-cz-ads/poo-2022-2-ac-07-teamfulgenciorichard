@@ -20,7 +20,7 @@ public class Main {
             numero = scanner.nextInt();
 
             Conta cadastroNormal = new Conta(numero, nome_titular);
-            System.out.println("\n\n|CONTA NORMAL|\nNúmero: "+cadastroNormal.getNumero()+"\nTitular: "+cadastroNormal.getNome_titular());
+            System.out.println("\n|CONTA NORMAL|\n\nNúmero: "+cadastroNormal.getNumero()+"\nTitular: "+cadastroNormal.getNome_titular()+'\n');
             break;
 
             case 2:
@@ -32,7 +32,7 @@ public class Main {
             numero = scanner.nextInt();
 
             ContaPoupanca cadastroPoupança = new ContaPoupanca(numero, nome_titular);
-            System.out.println("\n|CONTA POUPANÇA|\n\nNúmero: "+cadastroPoupança.getNumero()+"\nTitular: "+cadastroPoupança.getNome_titular());
+            System.out.println("\n|CONTA POUPANÇA|\n\nNúmero: "+cadastroPoupança.getNumero()+"\nTitular: "+cadastroPoupança.getNome_titular()+'\n');
             break;
 
             case 3:
@@ -47,7 +47,7 @@ public class Main {
             double saldo = scanner.nextDouble();
 
             ContaEspecial cadastroEspecial = new ContaEspecial(numero, nome_titular, saldo);
-            System.out.println("\n\n|CONTA ESPECIAL|\nNúmero: "+cadastroEspecial.getNumero()+"\nTitular: " +cadastroEspecial.getNome_titular()+"\nSaldo: "+cadastroEspecial.getLimite());
+            System.out.println("\n|CONTA ESPECIAL|\n\nNúmero: "+cadastroEspecial.getNumero()+"\nTitular: " +cadastroEspecial.getNome_titular()+"\nSaldo: "+cadastroEspecial.getLimite()+'\n');
             break;
 
             default:
